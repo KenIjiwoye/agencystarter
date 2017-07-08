@@ -1,0 +1,126 @@
+$primaryColor: #30235f;
+$accentColor:  #52c3c0;
+
+@mixin btn-accent(){
+  border-color: $accentColor;
+  color: $accentColor;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-size: .80em;
+}
+
+.bg-faded {
+  background-color: transparent;
+  padding-right: 5%;
+  padding-top: 0;
+  z-index: 5
+}
+.navbar-nav li a {
+  font-weight: 900;
+  font-size: .75em;
+  padding-right: 10%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color :white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+  color: $accentColor;
+}
+.navbar-brand {
+  padding-left:10%;
+}
+
+
+
+
+#header {
+  background-image: url('../images/header-bg.jpg');
+  background-size: cover;
+  height: 600px;
+  // z-index: -1;
+  margin-top: -70px;
+  padding: 20%;
+  text-align: center;
+  color: white;
+  p {
+    font-weight: 300;
+    font-size: .80rem;
+  }
+  hr.underline {
+    width: 100px;
+    background-color: #fff;
+  }
+  .btn-outline-primary {
+    @include btn-accent();
+  }
+  .btn-outline-primary:hover {
+    background-color: $accentColor;
+    color: #fff;
+  }
+}
+
+#about {
+  padding: 5%;
+  .btn-outline-primary {
+    @include btn-accent();
+    }
+  .btn-outline-primary:hover {
+    background-color: $accentColor;
+    color: #fff;
+  }
+}
+
+#video {
+  height: 550px;
+  background-image: url('../images/video-bg.jpg');
+  background-size: cover;
+  text-align: center;
+  img {
+    padding-top: 250px;
+  }
+  p {
+    color: #fff;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  // BORDER CSS
+  .border-left {
+    border-left: 1px solid #ebebeb;
+  }
+  .border-right {
+    border-right: 1px solid #ebebeb;
+  }
+  .border-bottom {
+    border-bottom: 1px solid #ebebeb;
+  }
+  .border-top {
+    border-top: 1px solid #ebebeb;
+  }
+}
+#expertise {
+  padding-top: 2%;
+  h2,p {
+    text-align: center;
+  }
+  .grid {
+    text-align: center;
+    padding: 5% 0;
+    .col-md-4 {
+      padding: 3%;
+      img {
+        padding-bottom: 10%;
+      }
+      p {
+        padding: 1%;
+      }
+    }
+  }
+}

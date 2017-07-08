@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+
+p {
+  font-size: .80em; }
+
+.bg-faded {
+  background-color: transparent;
+  padding-right: 5%;
+  padding-top: 0;
+  z-index: 5; }
+
+.navbar-nav li a {
+  font-weight: 900;
+  font-size: .75em;
+  padding-right: 10%; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
+  color: #52c3c0; }
+
+.navbar-brand {
+  padding-left: 10%; }
+
+#header {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+  height: 600px;
+  margin-top: -70px;
+  padding: 20%;
+  text-align: center;
+  color: white; }
+  #header p {
+    font-weight: 300;
+    font-size: .80rem; }
+  #header hr.underline {
+    width: 100px;
+    background-color: #fff; }
+  #header .btn-outline-primary {
+    border-color: #52c3c0;
+    color: #52c3c0; }
+  #header .btn-outline-primary:hover {
+    background-color: #52c3c0;
+    color: #fff; }
+
+#about {
+  padding: 5%; }
+  #about .btn-outline-primary {
+    border-color: #52c3c0;
+    color: #52c3c0; }
+  #about .btn-outline-primary:hover {
+    background-color: #52c3c0;
+    color: #fff; }
+
+#video {
+  height: 550px;
+  background-image: url("../images/video-bg.jpg");
+  background-size: cover;
+  text-align: center; }
+  #video img {
+    padding-top: 250px; }
+  #video p {
+    color: #fff;
+    padding-top: 10px; }
+
+@media (min-width: 768px) {
+  .border-left {
+    border-left: 1px solid #ebebeb; }
+  .border-right {
+    border-right: 1px solid #ebebeb; }
+  .border-bottom {
+    border-bottom: 1px solid #ebebeb; }
+  .border-top {
+    border-top: 1px solid #ebebeb; } }
+
+#expertise {
+  padding-top: 2%; }
+  #expertise h2, #expertise p {
+    text-align: center; }
+  #expertise .grid {
+    text-align: center;
+    padding: 5% 0; }
+    #expertise .grid .col-md-4 {
+      padding: 3%; }
+      #expertise .grid .col-md-4 img {
+        padding-bottom: 10%; }
+      #expertise .grid .col-md-4 p {
+        padding: 1%; }
