@@ -37,6 +37,9 @@ p {
     padding-right: 10%; }
   .navbar-light .navbar-nav .nav-link {
     color: white; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    background-color: #52c3c0;
+    color: white; }
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
     color: #52c3c0; }
   .navbar-brand {
