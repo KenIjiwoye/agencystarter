@@ -124,3 +124,57 @@ p {
     }
   }
 }
+#quote {
+  background-image: url('../images/team-bg.jpg');
+  background-size: cover;
+  padding: 10% 5%;
+  text-align: center;
+  color: #fff;
+}
+#works {
+  .work-title {
+    padding: 3% 0;
+    text-align: center;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  #portfolio {
+    img {
+      width: 267px;
+      height: 200px;
+    }
+    .work-1 {
+      background-image: url('../images/works/1.jpeg');
+      background-size: cover;
+      min-height: 200px;
+      padding: 0;
+      margin: 0;
+    }
+    .work-2 {
+      background-image: url('../images/works/2.jpg');
+      background-size: cover;
+      min-height: 200px;
+      padding: 0;
+      margin: 0;
+    }
+    .work-3 {
+      background-image: url('../images/works/3.jpeg');
+      background-size: cover;
+      min-height: 200px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .load-btn{
+    text-align: center;
+    padding: 3%;
+    .btn-outline-primary {
+      @include btn-accent();
+    }
+    .btn-outline-primary:hover {
+      background-color: $accentColor;
+      color: #fff;
+    }
+  }
+}
