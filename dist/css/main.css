@@ -129,7 +129,7 @@ p {
   color: #fff; }
 
 #works .work-title {
-  padding: 3% 0;
+  margin: 3% 0;
   text-align: center; }
   #works .work-title p {
     margin-bottom: 0; }
@@ -195,7 +195,7 @@ p {
   #contact .btn-outline-primary:hover {
     background-color: #52c3c0;
     color: #fff; }
-  #contact .form-control:focus {
+  #contact .form-control {
     color: #fff; }
 
 #footer {
