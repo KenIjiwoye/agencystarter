@@ -21,7 +21,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="">
             <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -77,10 +77,27 @@
     ================================================================= -->
     <div id="video">
       <div class="container">
-        <img src="dist/images/play-btn.png" alt="">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          <img src="dist/images/play-btn.png" alt="">
+        </button>
+
         <p><strong>WATCH OUR STORY</strong></p>
       </div>
+      <!-- MODAL SECTION -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/1Mlhnt0jMlg?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+
+
     <!-- VIDEO ENDS====================================================
     ================================================================= -->
 
@@ -155,7 +172,7 @@
             <h2>OUR WORK</h2>
           </div>
           <div class="col-md-6 align-bottom">
-            <p>See All Projects in Behance</p>
+            <p>See All Projects in Behance &#62;</p>
           </div>
         </div>
       </div>
@@ -208,6 +225,135 @@
         <button class="btn btn-outline-primary">LOAD MORE</button>
       </div>
     </div>
+    <!-- WORKS ENDS==============================================
+    ================================================================= -->
+
+    <!-- CTA STARTS==============================================
+    ================================================================= -->
+    <div id="cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Wanna See What We Can Do For You?</h2>
+            <button class="btn btn-outline-primary">CONTACT US</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CTA ENDS==============================================
+    ================================================================= -->
+
+    <!-- CONTACT STARTS==============================================
+    ================================================================= -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="padding-right: 3%;">
+            <h2>CONTACT US</h2>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h2>OUR CLIENTS</h2>
+            <div class="row">
+              <div class="col">
+                <img src="dist/images/clients/1.png" alt="">
+                <img src="dist/images/clients/2.png" alt="">
+                <img src="dist/images/clients/3.png" alt="">
+                <img src="dist/images/clients/4.png" alt="">
+                <img src="dist/images/clients/5.png" alt="">
+              </div>
+              <div class="col" style="padding-top: 30px;">
+                <img src="dist/images/clients/6.png" alt="">
+                <img src="dist/images/clients/7.png" alt="">
+                <img src="dist/images/clients/8.png" alt="">
+                <img src="dist/images/clients/9.png" alt="">
+                <img src="dist/images/clients/10.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT ENDS==============================================
+    ================================================================= -->
+
+    <!-- FOOTER STARTS==============================================
+    ================================================================= -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="dist/images/logo.png" alt=""> <br><br>
+            <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+          </div>
+          <div class="col-md-4">
+            <h4>OUR STUDIO</h4> <br>
+            <div class="media">
+              <img class="d-flex mr-3" src="dist/images/location.png" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Address</h5>
+                <p>123 Main St. <br>
+                Phoenix, AZ 85001</p>
+              </div>
+            </div> <br>
+            <div class="media">
+              <img class="d-flex mr-3" src="dist/images/phone.png" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Phone</h5>
+                <p>+(480)-555-5555</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4>STAY IN TOUCH</h4><br>
+            <form>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Subscribe to our newsletter">
+              <button type="submit" class="btn btn-primary">
+                <img src="dist/images/paper.png" style="width:25px; height:25px;" alt="">
+              </button>
+            </form> <br>
+            <div class="row">
+              <a href=""><img src="dist/images/social/fb.png" style="width:35px;height:35px;margin-left:15px;margin-right:10px;" alt=""></a>
+              <a href=""><img src="dist/images/social/twitter.png" style="width:35px;height:35px;margin-right:10px;" alt=""></a>
+              <a href=""><img src="dist/images/social/instagram.png" style="width:35px;height:35px;margin-right:10px;" alt=""></a>
+              <a href=""><img src="dist/images/social/dribbble.png" style="width:35px;height:35px;margin-right:10px;" alt=""></a>
+              <a href=""><img src="dist/images/social/google.png" style="width:35px;height:35px;margin-right:10px;" alt=""></a>
+              <a href=""><img src="dist/images/social/youtube.png" style="width:35px;height:35px;margin-right:10px;" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <!-- END OF ROW -->
+        <div class="row">
+          <div class="col-xs-6">
+            <ul class="footer-links">
+              <li><a href="#">HELP</a></li>
+              <li><a href="#">TERMS & CONDITIONS</a></li>
+              <li><a href="#">PRIVACY</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 align-self-end ml-auto">
+            <p>Copyright © 2015 - Ken Ijiwoye</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER ENDS==============================================
+    ================================================================= -->
 
 
       <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
