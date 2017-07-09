@@ -6,6 +6,10 @@ $accentColor:  #52c3c0;
   color: $accentColor;
 }
 
+h1,h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -257,6 +261,9 @@ p {
   }
   .btn-outline-primary:hover {
     background-color: $accentColor;
+    color: #fff;
+  }
+  .form-control:focus {
     color: #fff;
   }
 }
